@@ -1,0 +1,4 @@
+sudo apt remove pivccu-modules-raspberrypi 
+sudo apt install --reinstall raspberrypi-bootloader raspberrypi-kernel raspberrypi-kernel-headers 
+sudo apt install pivccu-modules-raspberrypi 
+sudo reboot
